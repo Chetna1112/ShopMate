@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ShoppingList</string>
+
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Electronic</item>
+        <item>Book</item>
+        <item>Clothing</item>
+        <item>Home Appliance</item>
+        <item>Sports</item>
+        <item>Beauty</item>
+        <item>Toys</item>
+        <item>Furniture</item>
+        <item>Stationery</item>
+        <!-- Add more categories as needed -->
+    </string-array>
+    <string name="select_category">Select Category</string>
+</resources>
+

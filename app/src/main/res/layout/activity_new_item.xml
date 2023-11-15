@@ -1,0 +1,62 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c1d8f0">
+
+    <EditText
+        android:id="@+id/editTextItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextItemName"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"
+        android:entries="@array/categories"
+        android:prompt="@string/select_category"/>
+
+    <EditText
+        android:id="@+id/editTextEstimatedPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Estimated Price"
+        android:inputType="numberDecimal"
+        android:layout_below="@id/spinnerCategory"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:layout_below="@id/editTextEstimatedPrice"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxIsBought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Purchased"
+        android:layout_below="@id/editTextDescription"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="16dp"/>
+
+    <Button
+        android:id="@+id/buttonAddItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Item"
+        android:layout_below="@id/checkBoxIsBought"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:layout_marginHorizontal="16dp"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/addItem"
+        android:title="Add Item"
+        android:icon="@drawable/app_logo"
+        app:showAsAction="ifRoom"
+        android:tooltipText="Add">
+    </item>
+    <item android:id="@+id/deleteItem"
+        android:title="Delete Item"
+        android:icon="@drawable/delete"
+        app:showAsAction="ifRoom"
+        android:tooltipText="Delete All">
+    </item>
+</menu>
